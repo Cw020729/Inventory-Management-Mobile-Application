@@ -1,0 +1,149 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:orientation="vertical">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <ImageButton
+                android:id="@+id/deleteItemButton"
+                android:layout_width="150px"
+                android:layout_height="150px"
+                android:layout_alignParentEnd="true"
+                android:layout_marginEnd="0dp"
+                android:backgroundTint="@color/white"
+                android:maxWidth="10dp"
+                android:maxHeight="10dp"
+                app:srcCompat="@drawable/deletebutton" />
+        </RelativeLayout>
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/item" />
+
+        <ImageView
+            android:id="@+id/itemImage"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="16dp"
+            android:adjustViewBounds="true"
+            android:scaleType="centerCrop"
+            android:src="@drawable/ic_launcher_foreground" />
+
+        <Button
+            android:id="@+id/selectImageButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/select_image_button" />
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/item_name" />
+
+        <EditText
+            android:id="@+id/itemName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/item_name_hint" />
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/manufacture" />
+
+        <EditText
+            android:id="@+id/itemManufacture"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/item_manufacture_hint"
+            android:minHeight="48dp" />
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/price" />
+
+
+        <EditText
+            android:id="@+id/itemPrice"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:hint="@string/item_price_hint"
+            android:inputType="numberDecimal"
+            android:selectAllOnFocus="true" />
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/quantity" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <EditText
+                android:id="@+id/itemQuantity"
+                android:layout_width="265dp"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/quantity_hint"
+                android:inputType="number" />
+
+            <Button
+                android:id="@+id/plusButton"
+                android:layout_width="44dp"
+                android:layout_height="38dp"
+                android:layout_margin="10px"
+                android:text="@string/plus_button"
+                android:backgroundTint="@color/green"/>
+
+            <Button
+                android:id="@+id/minusButton"
+                android:layout_width="44dp"
+                android:layout_height="38dp"
+                android:layout_margin="10px"
+                android:backgroundTint="@color/red"
+                android:text="@string/minus_button" />
+
+        </LinearLayout>
+
+        <TextView
+            style="?android:listSeparatorTextViewStyle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/restock_date" />
+
+        <Button
+            android:id="@+id/dateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="@color/blue"
+            android:text="@string/date_button" />
+
+        <Button
+            android:id="@+id/saveButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/save_button"
+            android:layout_marginBottom="100px"/>
+
+    </LinearLayout>
+</ScrollView>

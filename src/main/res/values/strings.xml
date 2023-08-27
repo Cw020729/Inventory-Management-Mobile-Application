@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Stock List Application</string>
+    <string name="item">Item</string>
+    <string name="item_name_hint">Enter the name of the Item</string>
+    <string name="item_manufacture_hint">Enter the manufacture of the Item</string>
+    <string name="item_price_hint">Enter the price of the Item</string>
+    <string name="quantity_hint">Enter the quantity of the item</string>
+    <string name="save_button">Save</string>
+    <string name="delete_confirmation_text">Are you sure you want to delete this item?</string>
+    <string name="yes_button">Yes</string>
+    <string name="no_button">No</string>
+    <string name="plus_button">+</string>
+    <string name="minus_button">-</string>
+    <string name="select_image_button">Select Image</string>
+    <string name="item_name">Name</string>
+    <string name="manufacture">Manufacture</string>
+    <string name="price">Price</string>
+    <string name="quantity">Quantity</string>
+    <string name="restock_date">Restock Date</string>
+    <string name="date_button">Select Restock Date</string>
+    <string name="search_stock">Search Stock</string>
+    <string name="clear_search">Clear Stock</string>
+</resources>

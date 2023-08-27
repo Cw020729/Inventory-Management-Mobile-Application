@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/search_stock"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="@string/search_stock"
+        app:showAsAction="ifRoom|collapseActionView"
+        app:actionViewClass="androidx.appcompat.widget.SearchView" />
+
+    <!-- Clear search item -->
+    <item
+        android:id="@+id/clear_search"
+        android:icon="@android:drawable/ic_menu_close_clear_cancel"
+        android:title="@string/clear_search"
+        app:showAsAction="always"
+        android:visible="false" />
+    <item
+        android:id="@+id/share_stock_list"
+        android:title="Share"
+        app:showAsAction="always"
+        android:icon="@android:drawable/ic_menu_share" />
+</menu>
