@@ -1,4 +1,4 @@
-# Iventory Moangement Mobile Application
+# Inventory Management Mobile Application
 An Inventory Management Mobile Application with database using Kotlin 
 
 # Home Page
