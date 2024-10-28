@@ -1,5 +1,5 @@
-# StockListMobileApplication
-A stock list mobile application with a database using Kotlin 
+# Iventory Moangement Mobile Application
+An Inventory Management Mobile Application with database using Kotlin 
 
 # Home Page
 ![Home Page](https://github.com/Cw020729/StockListMobileApplication/blob/main/Sample1/HomePage.jpg?raw=true)
